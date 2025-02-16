@@ -1,1 +1,44 @@
 /*  your css code here. If applicable */
+h1{
+  text-align: center;
+
+}
+span{
+  color: blue;
+}
+input{
+  width: 100%;
+}
+button{
+  background-color: rgb(77, 77, 230);
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+table {
+  width: 100%;
+   
+   
+}
+
+th, td {
+ 
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+td{
+  background-color: rgba(15, 15, 14, 0.114);
+}
+td button {
+    background-color: red;
+     color: white;
+     padding: 10px;
+     margin-top: 30px;
+}
+
+td button:hover {
+    background-color: darkred;
+}
