@@ -4,7 +4,7 @@
         let title = document.getElementById("title").value
         let author = document.getElementById("author").value
         let isbn = document.getElementById("isbn").value
-        let table = document.querySelector(".book-list");
+        let table = document.querySelector("#book-list");
         let row = document.createElement("tr");
         row.innerHTML = `
             <td>${title}</td>
@@ -21,7 +21,7 @@
         document.getElementById("author").value = "";
         document.getElementById("isbn").value = "";
     });
-    document.querySelector(".book-list").addEventListener("click", function (event) {
+    document.querySelector("#book-list").addEventListener("click", function (event) {
         if (event.target.tagName === "BUTTON") {
             event.target.parentElement.parentElement.remove();
         }
